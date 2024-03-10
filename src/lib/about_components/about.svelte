@@ -1,4 +1,4 @@
-<section class="bg-gradient-to-b from-orange-200 to-orange-500;">
+<section class="">
         <div class="gap-16 items-center py-12 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
             <div class="font-light text-gray-50 sm:text-lg">
                 <div class="mb-2">
@@ -29,3 +29,6 @@
             </div>
         </div>
     </section>
+
+
+    <!-- bg-gradient-to-b from-orange-400 to-orange-500 -->
