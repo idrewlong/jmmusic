@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: 'Audiowide', sans-serif;
+	@apply bg-gradient-to-tr from-orange-200 to-orange-500;
+}
