@@ -2,12 +2,11 @@
         <div class="flex items-center justify-center bg-white mx-auto max-w-lg p-4">
             <div class=" text-center">
                 <h1 class=" text-2xl md:text-4xl font-medium uppercase">Book a Session:</h1>
-                <p class="mt-3 font-thin">Email me at <a class="hover:underline" href="mailto:idrewlong@gmail.com">idrewlong@gmail.com</a>  or message me here:</p>
+                <p class="mt-3 font-thin">Email me at <a class="hover:underline" href="mailto:jbmaddox1995@gmail.com">jbmaddox1995@gmail.com</a>  or message me here:</p>
             
                 <!-- Form -->
                 <form action="https://api.web3forms.com/submit" class="mt-10" method="POST">
                     <input type="hidden" name="access_key" value='bjhb' />
-            
                     <div class="grid gap-4">
                         <label for="name" class="sr-only">Your name</label>
                         <input type="text" name="name" id="name" required class="block w-full appearance-none border-b border-gray-500 bg-transparent py-2.5 md:py-2 px-0 md:px-0.5 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder="Your name" />
