@@ -1,8 +1,36 @@
+<script>
+    let textToCopy = "jacksonmaddoxaudio@gmail.com";
+
+    function copyToClipboard() {
+    // Create a temporary textarea element
+    const textarea = document.createElement("textarea");
+
+    // Set the value of the textarea to the text you want to copy
+    textarea.value = textToCopy;
+
+    // Append the textarea to the document body
+    document.body.appendChild(textarea);
+
+    // Select the text inside the textarea
+    textarea.select();
+
+    // Execute the copy command
+    document.execCommand("copy");
+
+    // Remove the textarea from the document body
+    document.body.removeChild(textarea);
+
+    // Inform the user that the text has been copied
+    alert("Email copied to clipboard!");
+  }
+</script>
+
+
 <section class="min-h-screen mx-auto rounded-xl shadow-lg my-8 p-8 bg-white grid grid-cols-1 gap-5">
         <div class="flex items-center justify-center bg-white mx-auto max-w-lg p-4">
             <div class=" text-center">
                 <h1 class=" text-2xl md:text-4xl font-medium uppercase">Book a Session:</h1>
-                <p class="mt-3 font-thin">Email me at <a class="hover:underline" href="mailto:jbmaddox1995@gmail.com">jbmaddox1995@gmail.com</a>  or message me here:</p>
+                <p class="mt-3 font-thin">Email me at <button class="hover:underline" on:click={copyToClipboard}>jacksonmaddoxaudio@gmail.com</button>  or message me here:</p>
             
                 <!-- Form -->
                 <form action="https://api.web3forms.com/submit" class="mt-10" method="POST">
