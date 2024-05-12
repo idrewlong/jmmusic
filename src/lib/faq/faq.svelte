@@ -31,7 +31,7 @@
                         <h2 class="text-2xl font-bold leading-tight">Where do you record and mix?
                         </h2>
                         <p class="text-lg md:text-base mt-4 md:mt-4 text-neutral-600">
-                                <a class="hover:underline duration-300" href="https://www.garden-groove.com/">Garden Groove</a> in East Nashville is my preferred recording studio. While I frequently handle remote mixing from my home, clients also have the option to record at my home studio.
+                                <a class="text-green-500 hover:underline duration-300" href="https://www.garden-groove.com/">Garden Groove</a> in East Nashville is my preferred recording studio. While I frequently handle remote mixing from my home, clients also have the option to record at my home studio.
                         </p>
                 </div>
         </div>

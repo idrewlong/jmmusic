@@ -10,22 +10,22 @@
                 </p>
                 <div class="flex md:flex-row flex-col md:space-x-4 space-y-4 md:space-y-0">
                     <a href="/credits">
-                    <button class="px-4 py-2 md:px-2 md:py-2 rounded-md bg-transparent border border-white text-white hover:bg-orange-600 transition duration-300">Credits</button>
+                    <button class="px-4 py-2 md:px-2 md:py-2 rounded-md bg-transparent border border-white text-white hover:opacity-80 transition duration-300">Credits</button>
                     </a>
 
                     <a href="/faq">
-                    <button class="px-4 py-2 md:px-2 md:py-2 rounded-md bg-transparent border border-white text-white hover:bg-orange-600 transition duration-300">FAQ</button>
+                    <button class="px-4 py-2 md:px-2 md:py-2 rounded-md bg-transparent border border-white text-white hover:bopacity-80 transition duration-300">FAQ</button>
                     </a>
 
                     <a href="/contact">
-                    <button class="px-4 py-2 md:px-2 md:py-2 rounded-md bg-transparent border border-white text-white hover:bg-orange-600 transition duration-300">Book a Session!</button>
+                    <button class="px-4 py-2 md:px-2 md:py-2 rounded-md bg-transparent border border-white text-white hover:opacity-80 transition duration-300">Book a Session!</button>
                     </a>
                   </div>
                   
             </div>
             <div class="grid grid-cols-2 gap-4 mt-8">
                 <img class="w-full rounded-lg" src="/jm.webp" alt="Jackson Maddox Engineer Nashville">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="/jm.webp" alt="Jackson Maddox Engineer Nashville">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="/JM-02.webp" alt="Jackson Maddox Engineer Nashville">
             </div>
         </div>
     </section>
